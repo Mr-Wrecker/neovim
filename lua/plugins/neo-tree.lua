@@ -14,6 +14,9 @@ return {
                     hide_dotfiles = false,
                     hide_gitignored = false,
                 }
+            },
+            window = {
+                position = "right", -- Set Neo-Tree to open on the right side
             }
         })
     end
