@@ -8,11 +8,6 @@ return {
         "DaikyXendo/nvim-material-icon", -- Material Icon plugin
     },
     config = function()
-        -- Load material icons
-        require('nvim-web-devicons').setup({
-            override = require('nvim-material-icon').get_icons(),
-        })
-
         -- Neo-tree configuration
         require('neo-tree').setup({
             filesystem = {

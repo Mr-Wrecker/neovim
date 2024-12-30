@@ -17,3 +17,6 @@ vim.opt.rtp:prepend(lazypath)
 require("vimops")
 require("lazy").setup("plugins")
 require("keymaps")
+require('lazy').setup({
+    'DaikyXendo/nvim-material-icon',
+})
